@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -pthread -g  -shared -Wl,-soname,libjsoncpp.so.24 -o ../../../../../../lib/libjsoncpp.so.1.9.4 CMakeFiles/jsoncpp_lib.dir/json_reader.cpp.o CMakeFiles/jsoncpp_lib.dir/json_value.cpp.o CMakeFiles/jsoncpp_lib.dir/json_writer.cpp.o 

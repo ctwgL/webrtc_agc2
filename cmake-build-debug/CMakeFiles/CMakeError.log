@@ -1,0 +1,65 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7e974/fast && /usr/bin/make  -f CMakeFiles/cmTC_7e974.dir/build.make CMakeFiles/cmTC_7e974.dir/build
+make[1]: 进入目录“/home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7e974.dir/src.c.o
+/usr/bin/cc   -mavx2 -mfma -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_7e974.dir/src.c.o   -c /home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7e974
+/home/ctw/software/CLion-2020.3/clion-2020.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e974.dir/link.txt --verbose=1
+/usr/bin/cc -mavx2 -mfma -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_7e974.dir/src.c.o  -o cmTC_7e974 
+CMakeFiles/cmTC_7e974.dir/src.c.o：在函数‘main’中：
+src.c:(.text+0x3e)：对‘pthread_create’未定义的引用
+src.c:(.text+0x4a)：对‘pthread_detach’未定义的引用
+src.c:(.text+0x56)：对‘pthread_cancel’未定义的引用
+src.c:(.text+0x67)：对‘pthread_join’未定义的引用
+src.c:(.text+0x7b)：对‘pthread_atfork’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7e974.dir/build.make:106: recipe for target 'cmTC_7e974' failed
+make[1]: *** [cmTC_7e974] Error 1
+make[1]: 离开目录“/home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/CMakeFiles/CMakeTmp”
+Makefile:141: recipe for target 'cmTC_7e974/fast' failed
+make: *** [cmTC_7e974/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2210c/fast && /usr/bin/make  -f CMakeFiles/cmTC_2210c.dir/build.make CMakeFiles/cmTC_2210c.dir/build
+make[1]: 进入目录“/home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2210c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -mavx2 -mfma -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2210c.dir/CheckFunctionExists.c.o   -c /home/ctw/software/CLion-2020.3/clion-2020.3/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2210c
+/home/ctw/software/CLion-2020.3/clion-2020.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2210c.dir/link.txt --verbose=1
+/usr/bin/cc -mavx2 -mfma -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_2210c.dir/CheckFunctionExists.c.o  -o cmTC_2210c  -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2210c.dir/build.make:106: recipe for target 'cmTC_2210c' failed
+make[1]: *** [cmTC_2210c] Error 1
+make[1]: 离开目录“/home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/CMakeFiles/CMakeTmp”
+Makefile:141: recipe for target 'cmTC_2210c/fast' failed
+make: *** [cmTC_2210c/fast] Error 2
+
+
+

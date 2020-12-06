@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pffft"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\webrtc\;CMake Files\webrtc\third_party\;CMake Files\webrtc\third_party\abseil-cpp\;CMake Files\webrtc\third_party\abseil-cpp\CMake\;CMake Files\webrtc\third_party\abseil-cpp\absl\;CMake Files\webrtc\third_party\abseil-cpp\absl\copts\;CMake Files\webrtc\third_party\abseil-cpp\absl\base\;CMake Files\webrtc\third_party\abseil-cpp\absl\algorithm\;CMake Files\webrtc\third_party\abseil-cpp\absl\container\;CMake Files\webrtc\third_party\abseil-cpp\absl\debugging\;CMake Files\webrtc\third_party\abseil-cpp\absl\flags\;CMake Files\webrtc\third_party\abseil-cpp\absl\functional\;CMake Files\webrtc\third_party\abseil-cpp\absl\hash\;CMake Files\webrtc\third_party\abseil-cpp\absl\memory\;CMake Files\webrtc\third_party\abseil-cpp\absl\meta\;CMake Files\webrtc\third_party\abseil-cpp\absl\numeric\;CMake Files\webrtc\third_party\abseil-cpp\absl\random\;CMake Files\webrtc\third_party\abseil-cpp\absl\status\;CMake Files\webrtc\third_party\abseil-cpp\absl\strings\;CMake Files\webrtc\third_party\abseil-cpp\absl\synchronization\;CMake Files\webrtc\third_party\abseil-cpp\absl\time\;CMake Files\webrtc\third_party\abseil-cpp\absl\types\;CMake Files\webrtc\third_party\abseil-cpp\absl\utility\;CMake Files\webrtc\third_party\jsoncpp\;CMake Files\webrtc\third_party\jsoncpp\source\;CMake Files\webrtc\third_party\jsoncpp\source\cmake\;CMake Files\webrtc\third_party\jsoncpp\source\pkg-config\;CMake Files\webrtc\third_party\jsoncpp\source\src\;CMake Files\webrtc\third_party\jsoncpp\source\src\lib_json\;CMake Files\webrtc\third_party\jsoncpp\source\src\jsontestrunner\;CMake Files\webrtc\third_party\jsoncpp\source\src\test_lib_json\;CMake Files\webrtc\third_party\jsoncpp\source\include\;CMake Files\webrtc\third_party\pffft\;CMake Files\webrtc\third_party\pffft\src\;CMake Files\test_apm\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/webrtc/third_party/pffft/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/webrtc/third_party/pffft/src/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/webrtc/third_party/pffft/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/webrtc/third_party/pffft/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/webrtc/third_party/pffft/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pffft">
+				<Option output="/home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/lib/libpffft.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/webrtc/third_party/pffft/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-DWEBRTC_LINUX"/>
+					<Add option="-DWEBRTC_NS_FLOAT"/>
+					<Add option="-DWEBRTC_APM_DEBUG_DUMP=1"/>
+					<Add option="-DPFFFT_SIMD_DISABLE"/>
+					<Add directory="/home/ctw/webrtc/webrtc_apm_cmake/webrtc"/>
+					<Add directory="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/api"/>
+					<Add directory="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/common_audio/vad/include"/>
+					<Add directory="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/common_audio"/>
+					<Add directory="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/modules/audio_processing/include"/>
+					<Add directory="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/jsoncpp/source/include"/>
+					<Add directory="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/pffft/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/webrtc/third_party/pffft/src/Makefile&quot;  VERBOSE=1 pffft"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/webrtc/third_party/pffft/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/webrtc/third_party/pffft/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/webrtc/third_party/pffft/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pffft/fast">
+				<Option output="/home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/lib/libpffft.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/webrtc/third_party/pffft/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWEBRTC_POSIX"/>
+					<Add option="-DWEBRTC_LINUX"/>
+					<Add option="-DWEBRTC_NS_FLOAT"/>
+					<Add option="-DWEBRTC_APM_DEBUG_DUMP=1"/>
+					<Add option="-DPFFFT_SIMD_DISABLE"/>
+					<Add directory="/home/ctw/webrtc/webrtc_apm_cmake/webrtc"/>
+					<Add directory="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/api"/>
+					<Add directory="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/common_audio/vad/include"/>
+					<Add directory="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/common_audio"/>
+					<Add directory="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/modules/audio_processing/include"/>
+					<Add directory="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/jsoncpp/source/include"/>
+					<Add directory="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/pffft/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/webrtc/third_party/pffft/src/Makefile&quot;  VERBOSE=1 pffft/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/webrtc/third_party/pffft/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/webrtc/third_party/pffft/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ctw/webrtc/webrtc_apm_cmake/cmake-build-debug/webrtc/third_party/pffft/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/pffft/src/pffft.c">
+			<Option target="pffft"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/pffft/src/pffft.h">
+			<Option target="pffft"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/CMake/AbseilDll.cmake">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\CMake\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/CMake/AbseilHelpers.cmake">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\CMake\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/CMake/AbseilInstallDirs.cmake">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\CMake\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/absl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\absl\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/absl/copts/AbseilConfigureCopts.cmake">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\absl\copts\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/absl/copts/GENERATED_AbseilCopts.cmake">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\absl\copts\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/absl/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\absl\base\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/absl/algorithm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\absl\algorithm\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/absl/container/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\absl\container\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/absl/debugging/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\absl\debugging\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/absl/flags/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\absl\flags\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/absl/functional/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\absl\functional\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/absl/hash/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\absl\hash\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/absl/memory/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\absl\memory\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/absl/meta/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\absl\meta\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/absl/numeric/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\absl\numeric\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/absl/random/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\absl\random\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/absl/status/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\absl\status\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/absl/strings/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\absl\strings\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/absl/synchronization/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\absl\synchronization\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/absl/time/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\absl\time\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/absl/types/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\absl\types\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/abseil-cpp/absl/utility/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\abseil-cpp\absl\utility\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/jsoncpp/source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\jsoncpp\source\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/jsoncpp/source/CTestConfig.cmake">
+			<Option virtualFolder="CMake Files\webrtc\third_party\jsoncpp\source\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/jsoncpp/source/version.in">
+			<Option virtualFolder="CMake Files\webrtc\third_party\jsoncpp\source\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/jsoncpp/source/cmake/JoinPaths.cmake">
+			<Option virtualFolder="CMake Files\webrtc\third_party\jsoncpp\source\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/jsoncpp/source/pkg-config/jsoncpp.pc.in">
+			<Option virtualFolder="CMake Files\webrtc\third_party\jsoncpp\source\pkg-config\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/jsoncpp/source/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\jsoncpp\source\src\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/jsoncpp/source/src/lib_json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\jsoncpp\source\src\lib_json\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/jsoncpp/source/src/jsontestrunner/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\jsoncpp\source\src\jsontestrunner\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/jsoncpp/source/src/test_lib_json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\jsoncpp\source\src\test_lib_json\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/jsoncpp/source/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\jsoncpp\source\include\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/pffft/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\webrtc\third_party\pffft\src\"/>
+		</Unit>
+		<Unit filename="/home/ctw/webrtc/webrtc_apm_cmake/test_apm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test_apm\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

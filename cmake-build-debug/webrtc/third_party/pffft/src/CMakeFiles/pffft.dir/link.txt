@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libpffft.a  CMakeFiles/pffft.dir/pffft.c.o
+/usr/bin/ranlib ../../../../lib/libpffft.a

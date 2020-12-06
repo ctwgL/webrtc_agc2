@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/pffft/src/pffft.c
+pffft.h
+/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/pffft/src/pffft.h
+stdint.h
+-
+stdlib.h
+-
+math.h
+-
+assert.h
+-
+malloc.h
+-
+xmmintrin.h
+-
+arm_neon.h
+-
+string.h
+-
+
+/home/ctw/webrtc/webrtc_apm_cmake/webrtc/third_party/pffft/src/pffft.h
+stddef.h
+-
+
