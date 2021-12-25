@@ -1,2 +1,1 @@
-/usr/bin/ar qc libabsl_random_internal_platform.a CMakeFiles/absl_random_internal_platform.dir/internal/randen_round_keys.cc.o
-/usr/bin/ranlib libabsl_random_internal_platform.a
+/usr/bin/c++ -fPIC  -pthread -shared -Wl,-soname,libabsl_random_internal_platform.so -o ../../../../../lib/libabsl_random_internal_platform.so CMakeFiles/absl_random_internal_platform.dir/internal/randen_round_keys.cc.o 

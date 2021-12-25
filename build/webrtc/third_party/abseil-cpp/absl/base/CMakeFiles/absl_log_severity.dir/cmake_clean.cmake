@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "../../../../../bin/libabsl_log_severity.pdb"
+  "../../../../../lib/libabsl_log_severity.so"
   "CMakeFiles/absl_log_severity.dir/log_severity.cc.o"
   "CMakeFiles/absl_log_severity.dir/log_severity.cc.o.d"
-  "libabsl_log_severity.a"
-  "libabsl_log_severity.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

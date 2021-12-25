@@ -1,2 +1,1 @@
-/usr/bin/ar qc libabsl_leak_check_disable.a CMakeFiles/absl_leak_check_disable.dir/leak_check_disable.cc.o
-/usr/bin/ranlib libabsl_leak_check_disable.a
+/usr/bin/c++ -fPIC  -pthread -shared -Wl,-soname,libabsl_leak_check_disable.so -o ../../../../../lib/libabsl_leak_check_disable.so CMakeFiles/absl_leak_check_disable.dir/leak_check_disable.cc.o 

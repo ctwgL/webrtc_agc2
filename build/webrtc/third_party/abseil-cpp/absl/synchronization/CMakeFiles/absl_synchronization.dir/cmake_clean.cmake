@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "../../../../../bin/libabsl_synchronization.pdb"
+  "../../../../../lib/libabsl_synchronization.so"
   "CMakeFiles/absl_synchronization.dir/barrier.cc.o"
   "CMakeFiles/absl_synchronization.dir/barrier.cc.o.d"
   "CMakeFiles/absl_synchronization.dir/blocking_counter.cc.o"
@@ -13,8 +15,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/absl_synchronization.dir/mutex.cc.o.d"
   "CMakeFiles/absl_synchronization.dir/notification.cc.o"
   "CMakeFiles/absl_synchronization.dir/notification.cc.o.d"
-  "libabsl_synchronization.a"
-  "libabsl_synchronization.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

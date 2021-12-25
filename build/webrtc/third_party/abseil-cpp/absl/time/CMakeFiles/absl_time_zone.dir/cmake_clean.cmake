@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "../../../../../bin/libabsl_time_zone.pdb"
+  "../../../../../lib/libabsl_time_zone.so"
   "CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_fixed.cc.o"
   "CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_fixed.cc.o.d"
   "CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_format.cc.o"
@@ -17,8 +19,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_posix.cc.o.d"
   "CMakeFiles/absl_time_zone.dir/internal/cctz/src/zone_info_source.cc.o"
   "CMakeFiles/absl_time_zone.dir/internal/cctz/src/zone_info_source.cc.o.d"
-  "libabsl_time_zone.a"
-  "libabsl_time_zone.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

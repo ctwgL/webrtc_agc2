@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "../../../../../bin/libabsl_periodic_sampler.pdb"
+  "../../../../../lib/libabsl_periodic_sampler.so"
   "CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.o"
   "CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.o.d"
-  "libabsl_periodic_sampler.a"
-  "libabsl_periodic_sampler.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

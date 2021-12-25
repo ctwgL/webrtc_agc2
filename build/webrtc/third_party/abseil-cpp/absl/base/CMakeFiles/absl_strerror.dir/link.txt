@@ -1,2 +1,1 @@
-/usr/bin/ar qc libabsl_strerror.a CMakeFiles/absl_strerror.dir/internal/strerror.cc.o
-/usr/bin/ranlib libabsl_strerror.a
+/usr/bin/c++ -fPIC  -pthread -shared -Wl,-soname,libabsl_strerror.so -o ../../../../../lib/libabsl_strerror.so CMakeFiles/absl_strerror.dir/internal/strerror.cc.o 

@@ -1,0 +1,426 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libabsl_time_zone.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"absl_cc_library",
+			"add_compile_options",
+			"target_compile_options",
+			"add_definitions",
+			"include_directories",
+			"target_include_directories",
+			"set_property",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"webrtc/third_party/abseil-cpp/CMake/AbseilHelpers.cmake",
+			"webrtc/third_party/abseil-cpp/absl/time/CMakeLists.txt",
+			"webrtc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 216,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 13,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 240,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 29,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 26,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 28,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 22,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 91,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 235,
+				"parent" : 1
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 254,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 217,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -pthread -fPIC"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-march=native"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wcast-qual"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wconversion-null"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wformat-security"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wmissing-declarations"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Woverlength-strings"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wunused-local-typedefs"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wunused-result"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wvarargs"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wvla"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wwrite-strings"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-DNOMINMAX"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "WEBRTC_APM_DEBUG_DUMP=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WEBRTC_LINUX"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "WEBRTC_NS_FLOAT"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "WEBRTC_POSIX"
+				},
+				{
+					"define" : "absl_time_zone_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/api"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/common_audio/vad/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/common_audio"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/modules/audio_processing/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/third_party/jsoncpp/source/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/third_party/pffft/src"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/third_party/abseil-cpp"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					12
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				5,
+				7,
+				9,
+				11,
+				12,
+				15
+			]
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Abseil/internal"
+	},
+	"id" : "absl_time_zone::@09cb084a55dd69abd1be",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "absl_time_zone",
+	"nameOnDisk" : "libabsl_time_zone.so",
+	"paths" : 
+	{
+		"build" : "webrtc/third_party/abseil-cpp/absl/time",
+		"source" : "webrtc/third_party/abseil-cpp/absl/time"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				5,
+				7,
+				9,
+				11,
+				12,
+				15
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				4,
+				6,
+				8,
+				10,
+				13,
+				14,
+				16,
+				17
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 13,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/abseil-cpp/absl/time/internal/cctz/src/time_zone_fixed.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 13,
+			"path" : "webrtc/third_party/abseil-cpp/absl/time/internal/cctz/src/time_zone_fixed.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 13,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/abseil-cpp/absl/time/internal/cctz/src/time_zone_format.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 13,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/abseil-cpp/absl/time/internal/cctz/src/time_zone_if.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 13,
+			"path" : "webrtc/third_party/abseil-cpp/absl/time/internal/cctz/src/time_zone_if.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 13,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/abseil-cpp/absl/time/internal/cctz/src/time_zone_impl.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 13,
+			"path" : "webrtc/third_party/abseil-cpp/absl/time/internal/cctz/src/time_zone_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 13,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/abseil-cpp/absl/time/internal/cctz/src/time_zone_info.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 13,
+			"path" : "webrtc/third_party/abseil-cpp/absl/time/internal/cctz/src/time_zone_info.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 13,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/abseil-cpp/absl/time/internal/cctz/src/time_zone_libc.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 13,
+			"path" : "webrtc/third_party/abseil-cpp/absl/time/internal/cctz/src/time_zone_libc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 13,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/abseil-cpp/absl/time/internal/cctz/src/time_zone_lookup.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 13,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/abseil-cpp/absl/time/internal/cctz/src/time_zone_posix.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 13,
+			"path" : "webrtc/third_party/abseil-cpp/absl/time/internal/cctz/src/time_zone_posix.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 13,
+			"path" : "webrtc/third_party/abseil-cpp/absl/time/internal/cctz/src/tzfile.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 13,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/abseil-cpp/absl/time/internal/cctz/src/zone_info_source.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 13,
+			"path" : "webrtc/third_party/abseil-cpp/absl/time/internal/cctz/include/cctz/time_zone.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 13,
+			"path" : "webrtc/third_party/abseil-cpp/absl/time/internal/cctz/include/cctz/zone_info_source.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

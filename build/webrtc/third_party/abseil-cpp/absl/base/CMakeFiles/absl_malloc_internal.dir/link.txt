@@ -1,2 +1,1 @@
-/usr/bin/ar qc libabsl_malloc_internal.a CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.o
-/usr/bin/ranlib libabsl_malloc_internal.a
+/usr/bin/c++ -fPIC  -pthread -shared -Wl,-soname,libabsl_malloc_internal.so -o ../../../../../lib/libabsl_malloc_internal.so CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.o  -Wl,-rpath,/home/ctw/opensource/webrtc/webrtc_agc2/build/lib ../../../../../lib/libabsl_base.so ../../../../../lib/libabsl_raw_logging_internal.so -lpthread ../../../../../lib/libabsl_log_severity.so ../../../../../lib/libabsl_spinlock_wait.so 

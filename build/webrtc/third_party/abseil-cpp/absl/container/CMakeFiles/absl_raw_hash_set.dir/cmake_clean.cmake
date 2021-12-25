@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "../../../../../bin/libabsl_raw_hash_set.pdb"
+  "../../../../../lib/libabsl_raw_hash_set.so"
   "CMakeFiles/absl_raw_hash_set.dir/internal/raw_hash_set.cc.o"
   "CMakeFiles/absl_raw_hash_set.dir/internal/raw_hash_set.cc.o.d"
-  "libabsl_raw_hash_set.a"
-  "libabsl_raw_hash_set.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

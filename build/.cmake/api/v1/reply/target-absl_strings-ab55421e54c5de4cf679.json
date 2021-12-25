@@ -1,0 +1,597 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libabsl_strings.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"absl_cc_library",
+			"target_link_libraries",
+			"add_compile_options",
+			"target_compile_options",
+			"add_definitions",
+			"include_directories",
+			"target_include_directories",
+			"set_property",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"webrtc/third_party/abseil-cpp/CMake/AbseilHelpers.cmake",
+			"webrtc/third_party/abseil-cpp/absl/strings/CMakeLists.txt",
+			"webrtc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 216,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 218,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 13,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 240,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 29,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 26,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 28,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 22,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 91,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 235,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 254,
+				"parent" : 1
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 217,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -pthread -fPIC"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-march=native"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wcast-qual"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wconversion-null"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wformat-security"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wmissing-declarations"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Woverlength-strings"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wunused-local-typedefs"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wunused-result"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wvarargs"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wvla"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wwrite-strings"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-DNOMINMAX"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "WEBRTC_APM_DEBUG_DUMP=1"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "WEBRTC_LINUX"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "WEBRTC_NS_FLOAT"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "WEBRTC_POSIX"
+				},
+				{
+					"define" : "absl_strings_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/api"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/common_audio/vad/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/common_audio"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/modules/audio_processing/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/third_party/jsoncpp/source/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/third_party/pffft/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/third_party/abseil-cpp"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					13
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				5,
+				7,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "absl_log_severity::@7a9ed0285d0a6b85bae2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_raw_logging_internal::@7a9ed0285d0a6b85bae2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_spinlock_wait::@7a9ed0285d0a6b85bae2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_base::@7a9ed0285d0a6b85bae2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_throw_delegate::@7a9ed0285d0a6b85bae2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_int128::@b97c84d6eb33237add5f"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "absl_strings_internal::@94e513783307d6d5848e"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Abseil"
+	},
+	"id" : "absl_strings::@94e513783307d6d5848e",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/ctw/opensource/webrtc/webrtc_agc2/build/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../../../../../lib/libabsl_strings_internal.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../../../../../lib/libabsl_int128.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../../../../../lib/libabsl_throw_delegate.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../../../../../lib/libabsl_base.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libabsl_spinlock_wait.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../../../../../lib/libabsl_raw_logging_internal.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../../lib/libabsl_log_severity.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "absl_strings",
+	"nameOnDisk" : "libabsl_strings.so",
+	"paths" : 
+	{
+		"build" : "webrtc/third_party/abseil-cpp/absl/strings",
+		"source" : "webrtc/third_party/abseil-cpp/absl/strings"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				5,
+				7,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				4,
+				6,
+				8,
+				9,
+				10,
+				11,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/ascii.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/charconv.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/escaping.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/internal/charconv_bigint.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/internal/charconv_bigint.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/internal/charconv_parse.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/internal/charconv_parse.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/internal/memutil.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/internal/memutil.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/internal/stl_type_traits.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/internal/str_join_internal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/internal/str_split_internal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/match.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/numbers.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/str_cat.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/str_replace.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/str_split.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/string_view.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/substitute.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/ascii.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/charconv.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/escaping.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/internal/string_constant.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/match.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/numbers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/str_cat.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/str_join.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/str_replace.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/str_split.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/string_view.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/strip.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "webrtc/third_party/abseil-cpp/absl/strings/substitute.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

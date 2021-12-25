@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "../../../../../bin/libabsl_examine_stack.pdb"
+  "../../../../../lib/libabsl_examine_stack.so"
   "CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.o"
   "CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.o.d"
-  "libabsl_examine_stack.a"
-  "libabsl_examine_stack.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

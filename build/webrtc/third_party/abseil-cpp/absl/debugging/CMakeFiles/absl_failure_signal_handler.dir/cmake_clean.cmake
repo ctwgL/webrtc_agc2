@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "../../../../../bin/libabsl_failure_signal_handler.pdb"
+  "../../../../../lib/libabsl_failure_signal_handler.so"
   "CMakeFiles/absl_failure_signal_handler.dir/failure_signal_handler.cc.o"
   "CMakeFiles/absl_failure_signal_handler.dir/failure_signal_handler.cc.o.d"
-  "libabsl_failure_signal_handler.a"
-  "libabsl_failure_signal_handler.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

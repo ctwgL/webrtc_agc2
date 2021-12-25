@@ -1,2 +1,1 @@
-/usr/bin/ar qc libabsl_flags_commandlineflag_internal.a CMakeFiles/absl_flags_commandlineflag_internal.dir/internal/commandlineflag.cc.o
-/usr/bin/ranlib libabsl_flags_commandlineflag_internal.a
+/usr/bin/c++ -fPIC  -pthread -shared -Wl,-soname,libabsl_flags_commandlineflag_internal.so -o ../../../../../lib/libabsl_flags_commandlineflag_internal.so CMakeFiles/absl_flags_commandlineflag_internal.dir/internal/commandlineflag.cc.o 

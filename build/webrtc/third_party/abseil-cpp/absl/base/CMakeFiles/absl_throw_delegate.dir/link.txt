@@ -1,2 +1,1 @@
-/usr/bin/ar qc libabsl_throw_delegate.a CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.o
-/usr/bin/ranlib libabsl_throw_delegate.a
+/usr/bin/c++ -fPIC  -pthread -shared -Wl,-soname,libabsl_throw_delegate.so -o ../../../../../lib/libabsl_throw_delegate.so CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.o  -Wl,-rpath,/home/ctw/opensource/webrtc/webrtc_agc2/build/lib ../../../../../lib/libabsl_raw_logging_internal.so ../../../../../lib/libabsl_log_severity.so 

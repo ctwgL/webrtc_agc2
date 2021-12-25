@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "../../../../../bin/libabsl_stacktrace.pdb"
+  "../../../../../lib/libabsl_stacktrace.so"
   "CMakeFiles/absl_stacktrace.dir/stacktrace.cc.o"
   "CMakeFiles/absl_stacktrace.dir/stacktrace.cc.o.d"
-  "libabsl_stacktrace.a"
-  "libabsl_stacktrace.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,2 +1,1 @@
-/usr/bin/ar qc libabsl_stacktrace.a CMakeFiles/absl_stacktrace.dir/stacktrace.cc.o
-/usr/bin/ranlib libabsl_stacktrace.a
+/usr/bin/c++ -fPIC  -pthread -shared -Wl,-soname,libabsl_stacktrace.so -o ../../../../../lib/libabsl_stacktrace.so CMakeFiles/absl_stacktrace.dir/stacktrace.cc.o  -Wl,-rpath,/home/ctw/opensource/webrtc/webrtc_agc2/build/lib ../../../../../lib/libabsl_debugging_internal.so ../../../../../lib/libabsl_raw_logging_internal.so ../../../../../lib/libabsl_log_severity.so 

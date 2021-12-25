@@ -1,0 +1,401 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "webrtc/third_party/jsoncpp/source/src/lib_json/CMakeFiles/jsoncpp_object.dir/json_reader.cpp.o"
+		},
+		{
+			"path" : "webrtc/third_party/jsoncpp/source/src/lib_json/CMakeFiles/jsoncpp_object.dir/json_value.cpp.o"
+		},
+		{
+			"path" : "webrtc/third_party/jsoncpp/source/src/lib_json/CMakeFiles/jsoncpp_object.dir/json_writer.cpp.o"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"add_compile_options",
+			"add_compile_definitions",
+			"add_definitions",
+			"include_directories",
+			"target_include_directories",
+			"target_compile_features"
+		],
+		"files" : 
+		[
+			"webrtc/third_party/jsoncpp/source/src/lib_json/CMakeLists.txt",
+			"webrtc/CMakeLists.txt",
+			"webrtc/third_party/jsoncpp/source/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 187,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 3
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 130,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 134,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 121,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 91,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 204,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 201,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -pthread -fPIC"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-march=native"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wconversion"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Werror=strict-aliasing"
+				},
+				{
+					"fragment" : "-std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "JSON_DLL_BUILD"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "WEBRTC_APM_DEBUG_DUMP=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "WEBRTC_LINUX"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "WEBRTC_NS_FLOAT"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "WEBRTC_POSIX"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 14,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/api"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/common_audio/vad/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/common_audio"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/modules/audio_processing/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/third_party/jsoncpp/source/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/third_party/pffft/src"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/third_party/jsoncpp/source/src/lib_json/../../include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/build/webrtc/third_party/jsoncpp/source/include/json"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					16,
+					16,
+					16,
+					16,
+					16,
+					16,
+					16,
+					16,
+					16,
+					16,
+					16,
+					16,
+					16,
+					16,
+					16,
+					16,
+					16,
+					16,
+					16,
+					16,
+					16,
+					16,
+					16,
+					16,
+					16
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				9,
+				11,
+				12
+			]
+		}
+	],
+	"id" : "jsoncpp_object::@42aa80fa0c4aeaa3ed1e",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"name" : "jsoncpp_object",
+	"paths" : 
+	{
+		"build" : "webrtc/third_party/jsoncpp/source/src/lib_json",
+		"source" : "webrtc/third_party/jsoncpp/source/src/lib_json"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Public API",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				8,
+				10
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				9,
+				11,
+				12
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "webrtc/third_party/jsoncpp/source/include/json/config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "webrtc/third_party/jsoncpp/source/include/json/forwards.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "webrtc/third_party/jsoncpp/source/include/json/json_features.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "webrtc/third_party/jsoncpp/source/include/json/value.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "webrtc/third_party/jsoncpp/source/include/json/reader.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "webrtc/third_party/jsoncpp/source/include/json/version.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "webrtc/third_party/jsoncpp/source/include/json/writer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "webrtc/third_party/jsoncpp/source/include/json/assertions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "webrtc/third_party/jsoncpp/source/src/lib_json/json_tool.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/jsoncpp/source/src/lib_json/json_reader.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "webrtc/third_party/jsoncpp/source/src/lib_json/json_valueiterator.inl",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/jsoncpp/source/src/lib_json/json_value.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/jsoncpp/source/src/lib_json/json_writer.cpp",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

@@ -1,2 +1,1 @@
-/usr/bin/ar qc libabsl_scoped_set_env.a CMakeFiles/absl_scoped_set_env.dir/internal/scoped_set_env.cc.o
-/usr/bin/ranlib libabsl_scoped_set_env.a
+/usr/bin/c++ -fPIC  -pthread -shared -Wl,-soname,libabsl_scoped_set_env.so -o ../../../../../lib/libabsl_scoped_set_env.so CMakeFiles/absl_scoped_set_env.dir/internal/scoped_set_env.cc.o  -Wl,-rpath,/home/ctw/opensource/webrtc/webrtc_agc2/build/lib ../../../../../lib/libabsl_raw_logging_internal.so ../../../../../lib/libabsl_log_severity.so 

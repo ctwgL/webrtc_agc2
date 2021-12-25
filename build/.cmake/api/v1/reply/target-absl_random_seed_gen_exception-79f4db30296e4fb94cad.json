@@ -1,0 +1,314 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libabsl_random_seed_gen_exception.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"absl_cc_library",
+			"add_compile_options",
+			"target_compile_options",
+			"add_definitions",
+			"include_directories",
+			"target_include_directories",
+			"set_property",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"webrtc/third_party/abseil-cpp/CMake/AbseilHelpers.cmake",
+			"webrtc/third_party/abseil-cpp/absl/random/CMakeLists.txt",
+			"webrtc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 198,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 216,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 13,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 240,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 29,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 26,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 28,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 22,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 91,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 235,
+				"parent" : 1
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 254,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 217,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -pthread -fPIC"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-march=native"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wcast-qual"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wconversion-null"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wformat-security"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wmissing-declarations"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Woverlength-strings"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wunused-local-typedefs"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wunused-result"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wvarargs"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wvla"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wwrite-strings"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-DNOMINMAX"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "WEBRTC_APM_DEBUG_DUMP=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WEBRTC_LINUX"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "WEBRTC_NS_FLOAT"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "WEBRTC_POSIX"
+				},
+				{
+					"define" : "absl_random_seed_gen_exception_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/api"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/common_audio/vad/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/common_audio"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/modules/audio_processing/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/third_party/jsoncpp/source/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/third_party/pffft/src"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/third_party/abseil-cpp"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					12
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Abseil/internal"
+	},
+	"id" : "absl_random_seed_gen_exception::@8cd9897a6a2714c078b3",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "absl_random_seed_gen_exception",
+	"nameOnDisk" : "libabsl_random_seed_gen_exception.so",
+	"paths" : 
+	{
+		"build" : "webrtc/third_party/abseil-cpp/absl/random",
+		"source" : "webrtc/third_party/abseil-cpp/absl/random"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 13,
+			"compileGroupIndex" : 0,
+			"path" : "webrtc/third_party/abseil-cpp/absl/random/seed_gen_exception.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 13,
+			"path" : "webrtc/third_party/abseil-cpp/absl/random/seed_gen_exception.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

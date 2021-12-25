@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "../../../../../bin/libabsl_demangle_internal.pdb"
+  "../../../../../lib/libabsl_demangle_internal.so"
   "CMakeFiles/absl_demangle_internal.dir/internal/demangle.cc.o"
   "CMakeFiles/absl_demangle_internal.dir/internal/demangle.cc.o.d"
-  "libabsl_demangle_internal.a"
-  "libabsl_demangle_internal.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

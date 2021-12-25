@@ -1,2 +1,1 @@
-/usr/bin/ar qc libabsl_civil_time.a CMakeFiles/absl_civil_time.dir/internal/cctz/src/civil_time_detail.cc.o
-/usr/bin/ranlib libabsl_civil_time.a
+/usr/bin/c++ -fPIC  -pthread -shared -Wl,-soname,libabsl_civil_time.so -o ../../../../../lib/libabsl_civil_time.so CMakeFiles/absl_civil_time.dir/internal/cctz/src/civil_time_detail.cc.o 

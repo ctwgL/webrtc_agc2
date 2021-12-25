@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "../../../../../bin/libabsl_bad_optional_access.pdb"
+  "../../../../../lib/libabsl_bad_optional_access.so"
   "CMakeFiles/absl_bad_optional_access.dir/bad_optional_access.cc.o"
   "CMakeFiles/absl_bad_optional_access.dir/bad_optional_access.cc.o.d"
-  "libabsl_bad_optional_access.a"
-  "libabsl_bad_optional_access.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

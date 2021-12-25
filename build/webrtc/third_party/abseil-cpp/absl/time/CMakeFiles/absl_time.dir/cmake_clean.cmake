@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "../../../../../bin/libabsl_time.pdb"
+  "../../../../../lib/libabsl_time.so"
   "CMakeFiles/absl_time.dir/civil_time.cc.o"
   "CMakeFiles/absl_time.dir/civil_time.cc.o.d"
   "CMakeFiles/absl_time.dir/clock.cc.o"
@@ -9,8 +11,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/absl_time.dir/format.cc.o.d"
   "CMakeFiles/absl_time.dir/time.cc.o"
   "CMakeFiles/absl_time.dir/time.cc.o.d"
-  "libabsl_time.a"
-  "libabsl_time.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

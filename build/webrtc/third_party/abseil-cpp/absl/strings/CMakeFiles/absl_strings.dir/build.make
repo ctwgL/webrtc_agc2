@@ -270,27 +270,33 @@ absl_strings_OBJECTS = \
 # External object files for target absl_strings
 absl_strings_EXTERNAL_OBJECTS =
 
-webrtc/third_party/abseil-cpp/absl/strings/libabsl_strings.a: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/ascii.cc.o
-webrtc/third_party/abseil-cpp/absl/strings/libabsl_strings.a: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/charconv.cc.o
-webrtc/third_party/abseil-cpp/absl/strings/libabsl_strings.a: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/escaping.cc.o
-webrtc/third_party/abseil-cpp/absl/strings/libabsl_strings.a: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/internal/charconv_bigint.cc.o
-webrtc/third_party/abseil-cpp/absl/strings/libabsl_strings.a: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/internal/charconv_parse.cc.o
-webrtc/third_party/abseil-cpp/absl/strings/libabsl_strings.a: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/internal/memutil.cc.o
-webrtc/third_party/abseil-cpp/absl/strings/libabsl_strings.a: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/match.cc.o
-webrtc/third_party/abseil-cpp/absl/strings/libabsl_strings.a: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/numbers.cc.o
-webrtc/third_party/abseil-cpp/absl/strings/libabsl_strings.a: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/str_cat.cc.o
-webrtc/third_party/abseil-cpp/absl/strings/libabsl_strings.a: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/str_replace.cc.o
-webrtc/third_party/abseil-cpp/absl/strings/libabsl_strings.a: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/str_split.cc.o
-webrtc/third_party/abseil-cpp/absl/strings/libabsl_strings.a: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/string_view.cc.o
-webrtc/third_party/abseil-cpp/absl/strings/libabsl_strings.a: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/substitute.cc.o
-webrtc/third_party/abseil-cpp/absl/strings/libabsl_strings.a: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/build.make
-webrtc/third_party/abseil-cpp/absl/strings/libabsl_strings.a: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ctw/opensource/webrtc/webrtc_agc2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library libabsl_strings.a"
-	cd /home/ctw/opensource/webrtc/webrtc_agc2/build/webrtc/third_party/abseil-cpp/absl/strings && $(CMAKE_COMMAND) -P CMakeFiles/absl_strings.dir/cmake_clean_target.cmake
+lib/libabsl_strings.so: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/ascii.cc.o
+lib/libabsl_strings.so: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/charconv.cc.o
+lib/libabsl_strings.so: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/escaping.cc.o
+lib/libabsl_strings.so: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/internal/charconv_bigint.cc.o
+lib/libabsl_strings.so: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/internal/charconv_parse.cc.o
+lib/libabsl_strings.so: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/internal/memutil.cc.o
+lib/libabsl_strings.so: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/match.cc.o
+lib/libabsl_strings.so: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/numbers.cc.o
+lib/libabsl_strings.so: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/str_cat.cc.o
+lib/libabsl_strings.so: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/str_replace.cc.o
+lib/libabsl_strings.so: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/str_split.cc.o
+lib/libabsl_strings.so: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/string_view.cc.o
+lib/libabsl_strings.so: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/substitute.cc.o
+lib/libabsl_strings.so: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/build.make
+lib/libabsl_strings.so: lib/libabsl_strings_internal.so
+lib/libabsl_strings.so: lib/libabsl_int128.so
+lib/libabsl_strings.so: lib/libabsl_throw_delegate.so
+lib/libabsl_strings.so: lib/libabsl_base.so
+lib/libabsl_strings.so: lib/libabsl_spinlock_wait.so
+lib/libabsl_strings.so: lib/libabsl_raw_logging_internal.so
+lib/libabsl_strings.so: lib/libabsl_log_severity.so
+lib/libabsl_strings.so: webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ctw/opensource/webrtc/webrtc_agc2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX shared library ../../../../../lib/libabsl_strings.so"
 	cd /home/ctw/opensource/webrtc/webrtc_agc2/build/webrtc/third_party/abseil-cpp/absl/strings && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/absl_strings.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/build: webrtc/third_party/abseil-cpp/absl/strings/libabsl_strings.a
+webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/build: lib/libabsl_strings.so
 .PHONY : webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/build
 
 webrtc/third_party/abseil-cpp/absl/strings/CMakeFiles/absl_strings.dir/clean:

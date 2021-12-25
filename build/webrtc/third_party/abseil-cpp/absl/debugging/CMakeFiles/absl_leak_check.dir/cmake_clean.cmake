@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "../../../../../bin/libabsl_leak_check.pdb"
+  "../../../../../lib/libabsl_leak_check.so"
   "CMakeFiles/absl_leak_check.dir/leak_check.cc.o"
   "CMakeFiles/absl_leak_check.dir/leak_check.cc.o.d"
-  "libabsl_leak_check.a"
-  "libabsl_leak_check.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

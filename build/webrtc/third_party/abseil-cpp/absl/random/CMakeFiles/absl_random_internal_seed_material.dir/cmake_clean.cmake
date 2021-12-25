@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "../../../../../bin/libabsl_random_internal_seed_material.pdb"
+  "../../../../../lib/libabsl_random_internal_seed_material.so"
   "CMakeFiles/absl_random_internal_seed_material.dir/internal/seed_material.cc.o"
   "CMakeFiles/absl_random_internal_seed_material.dir/internal/seed_material.cc.o.d"
-  "libabsl_random_internal_seed_material.a"
-  "libabsl_random_internal_seed_material.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

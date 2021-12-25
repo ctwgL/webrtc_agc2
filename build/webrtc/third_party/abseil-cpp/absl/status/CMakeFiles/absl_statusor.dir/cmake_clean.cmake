@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "../../../../../bin/libabsl_statusor.pdb"
+  "../../../../../lib/libabsl_statusor.so"
   "CMakeFiles/absl_statusor.dir/statusor.cc.o"
   "CMakeFiles/absl_statusor.dir/statusor.cc.o.d"
-  "libabsl_statusor.a"
-  "libabsl_statusor.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

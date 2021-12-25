@@ -1,2 +1,1 @@
-/usr/bin/ar qc libabsl_random_internal_randen_slow.a CMakeFiles/absl_random_internal_randen_slow.dir/internal/randen_slow.cc.o
-/usr/bin/ranlib libabsl_random_internal_randen_slow.a
+/usr/bin/c++ -fPIC  -pthread -shared -Wl,-soname,libabsl_random_internal_randen_slow.so -o ../../../../../lib/libabsl_random_internal_randen_slow.so CMakeFiles/absl_random_internal_randen_slow.dir/internal/randen_slow.cc.o  -Wl,-rpath,/home/ctw/opensource/webrtc/webrtc_agc2/build/lib ../../../../../lib/libabsl_random_internal_platform.so 

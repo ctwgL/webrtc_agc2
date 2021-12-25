@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "../../../../../bin/libabsl_city.pdb"
+  "../../../../../lib/libabsl_city.so"
   "CMakeFiles/absl_city.dir/internal/city.cc.o"
   "CMakeFiles/absl_city.dir/internal/city.cc.o.d"
-  "libabsl_city.a"
-  "libabsl_city.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

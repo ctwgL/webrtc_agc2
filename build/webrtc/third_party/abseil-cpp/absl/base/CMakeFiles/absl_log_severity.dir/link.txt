@@ -1,2 +1,1 @@
-/usr/bin/ar qc libabsl_log_severity.a CMakeFiles/absl_log_severity.dir/log_severity.cc.o
-/usr/bin/ranlib libabsl_log_severity.a
+/usr/bin/c++ -fPIC  -pthread -shared -Wl,-soname,libabsl_log_severity.so -o ../../../../../lib/libabsl_log_severity.so CMakeFiles/absl_log_severity.dir/log_severity.cc.o 

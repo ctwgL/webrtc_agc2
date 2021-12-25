@@ -1,2 +1,1 @@
-/usr/bin/ar qc libabsl_int128.a CMakeFiles/absl_int128.dir/int128.cc.o
-/usr/bin/ranlib libabsl_int128.a
+/usr/bin/c++ -fPIC  -pthread -shared -Wl,-soname,libabsl_int128.so -o ../../../../../lib/libabsl_int128.so CMakeFiles/absl_int128.dir/int128.cc.o 

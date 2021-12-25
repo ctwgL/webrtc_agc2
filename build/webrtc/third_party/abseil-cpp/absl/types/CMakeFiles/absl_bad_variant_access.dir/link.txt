@@ -1,2 +1,1 @@
-/usr/bin/ar qc libabsl_bad_variant_access.a CMakeFiles/absl_bad_variant_access.dir/bad_variant_access.cc.o
-/usr/bin/ranlib libabsl_bad_variant_access.a
+/usr/bin/c++ -fPIC  -pthread -shared -Wl,-soname,libabsl_bad_variant_access.so -o ../../../../../lib/libabsl_bad_variant_access.so CMakeFiles/absl_bad_variant_access.dir/bad_variant_access.cc.o  -Wl,-rpath,/home/ctw/opensource/webrtc/webrtc_agc2/build/lib ../../../../../lib/libabsl_raw_logging_internal.so ../../../../../lib/libabsl_log_severity.so 

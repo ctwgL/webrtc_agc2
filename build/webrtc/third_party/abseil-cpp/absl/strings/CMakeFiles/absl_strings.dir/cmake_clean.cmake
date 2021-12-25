@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "../../../../../bin/libabsl_strings.pdb"
+  "../../../../../lib/libabsl_strings.so"
   "CMakeFiles/absl_strings.dir/ascii.cc.o"
   "CMakeFiles/absl_strings.dir/ascii.cc.o.d"
   "CMakeFiles/absl_strings.dir/charconv.cc.o"
@@ -25,8 +27,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/absl_strings.dir/string_view.cc.o.d"
   "CMakeFiles/absl_strings.dir/substitute.cc.o"
   "CMakeFiles/absl_strings.dir/substitute.cc.o.d"
-  "libabsl_strings.a"
-  "libabsl_strings.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

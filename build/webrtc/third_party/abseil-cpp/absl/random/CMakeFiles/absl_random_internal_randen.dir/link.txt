@@ -1,2 +1,1 @@
-/usr/bin/ar qc libabsl_random_internal_randen.a CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.o
-/usr/bin/ranlib libabsl_random_internal_randen.a
+/usr/bin/c++ -fPIC  -pthread -shared -Wl,-soname,libabsl_random_internal_randen.so -o ../../../../../lib/libabsl_random_internal_randen.so CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.o  -Wl,-rpath,/home/ctw/opensource/webrtc/webrtc_agc2/build/lib ../../../../../lib/libabsl_random_internal_randen_hwaes.so ../../../../../lib/libabsl_random_internal_randen_slow.so ../../../../../lib/libabsl_random_internal_randen_hwaes_impl.so ../../../../../lib/libabsl_random_internal_platform.so 

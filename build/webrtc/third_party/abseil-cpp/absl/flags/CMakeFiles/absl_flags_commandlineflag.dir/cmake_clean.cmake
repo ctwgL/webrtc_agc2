@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "../../../../../bin/libabsl_flags_commandlineflag.pdb"
+  "../../../../../lib/libabsl_flags_commandlineflag.so"
   "CMakeFiles/absl_flags_commandlineflag.dir/commandlineflag.cc.o"
   "CMakeFiles/absl_flags_commandlineflag.dir/commandlineflag.cc.o.d"
-  "libabsl_flags_commandlineflag.a"
-  "libabsl_flags_commandlineflag.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

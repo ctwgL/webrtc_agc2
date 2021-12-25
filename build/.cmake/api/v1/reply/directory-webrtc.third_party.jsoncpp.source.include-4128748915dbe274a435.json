@@ -1,0 +1,52 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"webrtc/third_party/jsoncpp/source/include/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/json",
+			"paths" : 
+			[
+				"webrtc/third_party/jsoncpp/source/include/json/allocator.h",
+				"webrtc/third_party/jsoncpp/source/include/json/assertions.h",
+				"webrtc/third_party/jsoncpp/source/include/json/config.h",
+				"webrtc/third_party/jsoncpp/source/include/json/forwards.h",
+				"webrtc/third_party/jsoncpp/source/include/json/json.h",
+				"webrtc/third_party/jsoncpp/source/include/json/json_features.h",
+				"webrtc/third_party/jsoncpp/source/include/json/reader.h",
+				"webrtc/third_party/jsoncpp/source/include/json/value.h",
+				"webrtc/third_party/jsoncpp/source/include/json/version.h",
+				"webrtc/third_party/jsoncpp/source/include/json/writer.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "webrtc/third_party/jsoncpp/source/include",
+		"source" : "webrtc/third_party/jsoncpp/source/include"
+	}
+}

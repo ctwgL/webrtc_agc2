@@ -180,21 +180,37 @@ absl_synchronization_OBJECTS = \
 # External object files for target absl_synchronization
 absl_synchronization_EXTERNAL_OBJECTS =
 
-webrtc/third_party/abseil-cpp/absl/synchronization/libabsl_synchronization.a: webrtc/third_party/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/barrier.cc.o
-webrtc/third_party/abseil-cpp/absl/synchronization/libabsl_synchronization.a: webrtc/third_party/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/blocking_counter.cc.o
-webrtc/third_party/abseil-cpp/absl/synchronization/libabsl_synchronization.a: webrtc/third_party/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/create_thread_identity.cc.o
-webrtc/third_party/abseil-cpp/absl/synchronization/libabsl_synchronization.a: webrtc/third_party/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/per_thread_sem.cc.o
-webrtc/third_party/abseil-cpp/absl/synchronization/libabsl_synchronization.a: webrtc/third_party/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/waiter.cc.o
-webrtc/third_party/abseil-cpp/absl/synchronization/libabsl_synchronization.a: webrtc/third_party/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/notification.cc.o
-webrtc/third_party/abseil-cpp/absl/synchronization/libabsl_synchronization.a: webrtc/third_party/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/mutex.cc.o
-webrtc/third_party/abseil-cpp/absl/synchronization/libabsl_synchronization.a: webrtc/third_party/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make
-webrtc/third_party/abseil-cpp/absl/synchronization/libabsl_synchronization.a: webrtc/third_party/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ctw/opensource/webrtc/webrtc_agc2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libabsl_synchronization.a"
-	cd /home/ctw/opensource/webrtc/webrtc_agc2/build/webrtc/third_party/abseil-cpp/absl/synchronization && $(CMAKE_COMMAND) -P CMakeFiles/absl_synchronization.dir/cmake_clean_target.cmake
+lib/libabsl_synchronization.so: webrtc/third_party/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/barrier.cc.o
+lib/libabsl_synchronization.so: webrtc/third_party/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/blocking_counter.cc.o
+lib/libabsl_synchronization.so: webrtc/third_party/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/create_thread_identity.cc.o
+lib/libabsl_synchronization.so: webrtc/third_party/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/per_thread_sem.cc.o
+lib/libabsl_synchronization.so: webrtc/third_party/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/waiter.cc.o
+lib/libabsl_synchronization.so: webrtc/third_party/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/notification.cc.o
+lib/libabsl_synchronization.so: webrtc/third_party/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/mutex.cc.o
+lib/libabsl_synchronization.so: webrtc/third_party/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build.make
+lib/libabsl_synchronization.so: lib/libabsl_graphcycles_internal.so
+lib/libabsl_synchronization.so: lib/libabsl_stacktrace.so
+lib/libabsl_synchronization.so: lib/libabsl_symbolize.so
+lib/libabsl_synchronization.so: lib/libabsl_time.so
+lib/libabsl_synchronization.so: lib/libabsl_civil_time.so
+lib/libabsl_synchronization.so: lib/libabsl_time_zone.so
+lib/libabsl_synchronization.so: lib/libabsl_malloc_internal.so
+lib/libabsl_synchronization.so: lib/libabsl_debugging_internal.so
+lib/libabsl_synchronization.so: lib/libabsl_demangle_internal.so
+lib/libabsl_synchronization.so: lib/libabsl_strings.so
+lib/libabsl_synchronization.so: lib/libabsl_int128.so
+lib/libabsl_synchronization.so: lib/libabsl_strings_internal.so
+lib/libabsl_synchronization.so: lib/libabsl_base.so
+lib/libabsl_synchronization.so: lib/libabsl_spinlock_wait.so
+lib/libabsl_synchronization.so: lib/libabsl_throw_delegate.so
+lib/libabsl_synchronization.so: lib/libabsl_raw_logging_internal.so
+lib/libabsl_synchronization.so: lib/libabsl_log_severity.so
+lib/libabsl_synchronization.so: webrtc/third_party/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ctw/opensource/webrtc/webrtc_agc2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library ../../../../../lib/libabsl_synchronization.so"
 	cd /home/ctw/opensource/webrtc/webrtc_agc2/build/webrtc/third_party/abseil-cpp/absl/synchronization && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/absl_synchronization.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-webrtc/third_party/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build: webrtc/third_party/abseil-cpp/absl/synchronization/libabsl_synchronization.a
+webrtc/third_party/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build: lib/libabsl_synchronization.so
 .PHONY : webrtc/third_party/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/build
 
 webrtc/third_party/abseil-cpp/absl/synchronization/CMakeFiles/absl_synchronization.dir/clean:

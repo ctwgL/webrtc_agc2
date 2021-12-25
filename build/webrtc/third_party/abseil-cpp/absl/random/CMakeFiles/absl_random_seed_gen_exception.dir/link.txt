@@ -1,2 +1,1 @@
-/usr/bin/ar qc libabsl_random_seed_gen_exception.a CMakeFiles/absl_random_seed_gen_exception.dir/seed_gen_exception.cc.o
-/usr/bin/ranlib libabsl_random_seed_gen_exception.a
+/usr/bin/c++ -fPIC  -pthread -shared -Wl,-soname,libabsl_random_seed_gen_exception.so -o ../../../../../lib/libabsl_random_seed_gen_exception.so CMakeFiles/absl_random_seed_gen_exception.dir/seed_gen_exception.cc.o 

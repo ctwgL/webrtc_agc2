@@ -1,2 +1,1 @@
-/usr/bin/ar qc libabsl_spinlock_wait.a CMakeFiles/absl_spinlock_wait.dir/internal/spinlock_wait.cc.o
-/usr/bin/ranlib libabsl_spinlock_wait.a
+/usr/bin/c++ -fPIC  -pthread -shared -Wl,-soname,libabsl_spinlock_wait.so -o ../../../../../lib/libabsl_spinlock_wait.so CMakeFiles/absl_spinlock_wait.dir/internal/spinlock_wait.cc.o 

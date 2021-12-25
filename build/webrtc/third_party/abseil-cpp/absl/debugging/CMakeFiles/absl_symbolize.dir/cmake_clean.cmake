@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "../../../../../bin/libabsl_symbolize.pdb"
+  "../../../../../lib/libabsl_symbolize.so"
   "CMakeFiles/absl_symbolize.dir/symbolize.cc.o"
   "CMakeFiles/absl_symbolize.dir/symbolize.cc.o.d"
-  "libabsl_symbolize.a"
-  "libabsl_symbolize.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

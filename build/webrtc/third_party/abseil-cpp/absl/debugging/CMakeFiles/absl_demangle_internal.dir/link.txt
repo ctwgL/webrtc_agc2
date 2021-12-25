@@ -1,2 +1,1 @@
-/usr/bin/ar qc libabsl_demangle_internal.a CMakeFiles/absl_demangle_internal.dir/internal/demangle.cc.o
-/usr/bin/ranlib libabsl_demangle_internal.a
+/usr/bin/c++ -fPIC  -pthread -shared -Wl,-soname,libabsl_demangle_internal.so -o ../../../../../lib/libabsl_demangle_internal.so CMakeFiles/absl_demangle_internal.dir/internal/demangle.cc.o  -Wl,-rpath,/home/ctw/opensource/webrtc/webrtc_agc2/build/lib ../../../../../lib/libabsl_base.so ../../../../../lib/libabsl_raw_logging_internal.so ../../../../../lib/libabsl_log_severity.so ../../../../../lib/libabsl_spinlock_wait.so -lpthread 

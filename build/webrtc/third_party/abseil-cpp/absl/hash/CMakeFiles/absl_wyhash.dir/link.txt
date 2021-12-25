@@ -1,2 +1,1 @@
-/usr/bin/ar qc libabsl_wyhash.a CMakeFiles/absl_wyhash.dir/internal/wyhash.cc.o
-/usr/bin/ranlib libabsl_wyhash.a
+/usr/bin/c++ -fPIC  -pthread -shared -Wl,-soname,libabsl_wyhash.so -o ../../../../../lib/libabsl_wyhash.so CMakeFiles/absl_wyhash.dir/internal/wyhash.cc.o  -Wl,-rpath,/home/ctw/opensource/webrtc/webrtc_agc2/build/lib ../../../../../lib/libabsl_int128.so ../../../../../lib/libabsl_base.so ../../../../../lib/libabsl_raw_logging_internal.so ../../../../../lib/libabsl_log_severity.so ../../../../../lib/libabsl_spinlock_wait.so -lpthread 

@@ -1,2 +1,1 @@
-/usr/bin/ar qc libabsl_raw_logging_internal.a CMakeFiles/absl_raw_logging_internal.dir/internal/raw_logging.cc.o
-/usr/bin/ranlib libabsl_raw_logging_internal.a
+/usr/bin/c++ -fPIC  -pthread -shared -Wl,-soname,libabsl_raw_logging_internal.so -o ../../../../../lib/libabsl_raw_logging_internal.so CMakeFiles/absl_raw_logging_internal.dir/internal/raw_logging.cc.o  -Wl,-rpath,/home/ctw/opensource/webrtc/webrtc_agc2/build/lib ../../../../../lib/libabsl_log_severity.so 

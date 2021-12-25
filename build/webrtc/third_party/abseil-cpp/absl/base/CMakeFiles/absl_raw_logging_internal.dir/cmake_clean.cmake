@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "../../../../../bin/libabsl_raw_logging_internal.pdb"
+  "../../../../../lib/libabsl_raw_logging_internal.so"
   "CMakeFiles/absl_raw_logging_internal.dir/internal/raw_logging.cc.o"
   "CMakeFiles/absl_raw_logging_internal.dir/internal/raw_logging.cc.o.d"
-  "libabsl_raw_logging_internal.a"
-  "libabsl_raw_logging_internal.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

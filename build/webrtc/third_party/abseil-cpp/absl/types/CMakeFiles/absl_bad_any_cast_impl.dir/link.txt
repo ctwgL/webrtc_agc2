@@ -1,2 +1,1 @@
-/usr/bin/ar qc libabsl_bad_any_cast_impl.a CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.o
-/usr/bin/ranlib libabsl_bad_any_cast_impl.a
+/usr/bin/c++ -fPIC  -pthread -shared -Wl,-soname,libabsl_bad_any_cast_impl.so -o ../../../../../lib/libabsl_bad_any_cast_impl.so CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.o  -Wl,-rpath,/home/ctw/opensource/webrtc/webrtc_agc2/build/lib ../../../../../lib/libabsl_raw_logging_internal.so ../../../../../lib/libabsl_log_severity.so 

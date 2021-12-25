@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "../../../../../bin/libabsl_int128.pdb"
+  "../../../../../lib/libabsl_int128.so"
   "CMakeFiles/absl_int128.dir/int128.cc.o"
   "CMakeFiles/absl_int128.dir/int128.cc.o.d"
-  "libabsl_int128.a"
-  "libabsl_int128.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

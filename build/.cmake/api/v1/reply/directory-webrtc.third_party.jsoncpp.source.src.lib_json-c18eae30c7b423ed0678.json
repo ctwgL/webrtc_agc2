@@ -1,0 +1,95 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"webrtc/third_party/jsoncpp/source/src/lib_json/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libjsoncpp.so.1.9.4",
+				"lib/libjsoncpp.so.24"
+			],
+			"targetId" : "jsoncpp_lib::@42aa80fa0c4aeaa3ed1e",
+			"targetIndex" : 62,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libjsoncpp.so"
+			],
+			"targetId" : "jsoncpp_lib::@42aa80fa0c4aeaa3ed1e",
+			"targetIndex" : 62,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libjsoncpp_static.a"
+			],
+			"targetId" : "jsoncpp_static::@42aa80fa0c4aeaa3ed1e",
+			"targetIndex" : 65,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				{
+					"from" : "webrtc/third_party/jsoncpp/source/src/lib_json/CMakeFiles/jsoncpp_object.dir//json_reader.cpp.o",
+					"to" : "objects/jsoncpp_object/json_reader.cpp.o"
+				},
+				{
+					"from" : "webrtc/third_party/jsoncpp/source/src/lib_json/CMakeFiles/jsoncpp_object.dir//json_value.cpp.o",
+					"to" : "objects/jsoncpp_object/json_value.cpp.o"
+				},
+				{
+					"from" : "webrtc/third_party/jsoncpp/source/src/lib_json/CMakeFiles/jsoncpp_object.dir//json_writer.cpp.o",
+					"to" : "objects/jsoncpp_object/json_writer.cpp.o"
+				}
+			],
+			"targetId" : "jsoncpp_object::@42aa80fa0c4aeaa3ed1e",
+			"targetIndex" : 63,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "webrtc/third_party/jsoncpp/source/src/lib_json",
+		"source" : "webrtc/third_party/jsoncpp/source/src/lib_json"
+	}
+}
