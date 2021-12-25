@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: absl_absl_hashtable_debug
+Description: Abseil absl_hashtable_debug library
+URL: https://abseil.io/
+Version: head
+Requires.private: absl_hashtable_debug_hooks = head
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

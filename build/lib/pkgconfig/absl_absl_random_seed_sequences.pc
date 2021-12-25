@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: absl_absl_random_seed_sequences
+Description: Abseil absl_random_seed_sequences library
+URL: https://abseil.io/
+Version: head
+Requires.private: absl_inlined_vector = head absl_random_internal_nonsecure_base = head absl_random_internal_pool_urbg = head absl_random_internal_salted_seed_seq = head absl_random_internal_seed_material = head absl_random_seed_gen_exception = head absl_span = head
+Libs: -L${libdir}  -labsl_absl_random_seed_sequences
+Cflags: -I${includedir} -DNOMINMAX

@@ -1,0 +1,10 @@
+# CMake generated Testfile for 
+# Source directory: /home/ctw/opensource/webrtc/webrtc_agc2/webrtc/third_party/jsoncpp/source/src/jsontestrunner
+# Build directory: /home/ctw/opensource/webrtc/webrtc_agc2/build/webrtc/third_party/jsoncpp/source/src/jsontestrunner
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(jsoncpp_readerwriter "/usr/bin/python3.9" "-B" "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/third_party/jsoncpp/source/src/jsontestrunner/../../test/runjsontests.py" "/home/ctw/opensource/webrtc/webrtc_agc2/build/bin/jsontestrunner_exe" "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/third_party/jsoncpp/source/src/jsontestrunner/../../test/data")
+set_tests_properties(jsoncpp_readerwriter PROPERTIES  WORKING_DIRECTORY "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/third_party/jsoncpp/source/src/jsontestrunner/../../test/data" _BACKTRACE_TRIPLES "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/third_party/jsoncpp/source/src/jsontestrunner/CMakeLists.txt;43;add_test;/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/third_party/jsoncpp/source/src/jsontestrunner/CMakeLists.txt;0;")
+add_test(jsoncpp_readerwriter_json_checker "/usr/bin/python3.9" "-B" "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/third_party/jsoncpp/source/src/jsontestrunner/../../test/runjsontests.py" "--with-json-checker" "/home/ctw/opensource/webrtc/webrtc_agc2/build/bin/jsontestrunner_exe" "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/third_party/jsoncpp/source/src/jsontestrunner/../../test/data")
+set_tests_properties(jsoncpp_readerwriter_json_checker PROPERTIES  WORKING_DIRECTORY "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/third_party/jsoncpp/source/src/jsontestrunner/../../test/data" _BACKTRACE_TRIPLES "/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/third_party/jsoncpp/source/src/jsontestrunner/CMakeLists.txt;47;add_test;/home/ctw/opensource/webrtc/webrtc_agc2/webrtc/third_party/jsoncpp/source/src/jsontestrunner/CMakeLists.txt;0;")

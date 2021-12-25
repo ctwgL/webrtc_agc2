@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: absl_absl_demangle_internal
+Description: Abseil absl_demangle_internal library
+URL: https://abseil.io/
+Version: head
+Requires.private: absl_base = head absl_core_headers = head
+Libs: -L${libdir}  -labsl_absl_demangle_internal
+Cflags: -I${includedir} -DNOMINMAX

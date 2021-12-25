@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: absl_absl_hashtablez_sampler
+Description: Abseil absl_hashtablez_sampler library
+URL: https://abseil.io/
+Version: head
+Requires.private: absl_base = head absl_exponential_biased = head absl_have_sse = head absl_synchronization = head
+Libs: -L${libdir}  -labsl_absl_hashtablez_sampler
+Cflags: -I${includedir} -DNOMINMAX

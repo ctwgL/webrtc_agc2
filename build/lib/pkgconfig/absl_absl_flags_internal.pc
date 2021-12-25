@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: absl_absl_flags_internal
+Description: Abseil absl_flags_internal library
+URL: https://abseil.io/
+Version: head
+Requires.private: absl_base = head absl_config = head absl_flags_commandlineflag = head absl_flags_commandlineflag_internal = head absl_flags_config = head absl_flags_marshalling = head absl_synchronization = head absl_meta = head absl_utility = head
+Libs: -L${libdir}  -labsl_absl_flags_internal
+Cflags: -I${includedir} -DNOMINMAX

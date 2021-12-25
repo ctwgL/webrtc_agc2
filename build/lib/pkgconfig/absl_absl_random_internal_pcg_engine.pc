@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: absl_absl_random_internal_pcg_engine
+Description: Abseil absl_random_internal_pcg_engine library
+URL: https://abseil.io/
+Version: head
+Requires.private: absl_config = head absl_int128 = head absl_random_internal_fastmath = head absl_random_internal_iostream_state_saver = head absl_type_traits = head
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

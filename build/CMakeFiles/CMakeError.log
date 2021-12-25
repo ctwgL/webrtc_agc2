@@ -1,0 +1,60 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/ctw/opensource/webrtc/webrtc_agc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a4bdc/fast && /usr/bin/make  -f CMakeFiles/cmTC_a4bdc.dir/build.make CMakeFiles/cmTC_a4bdc.dir/build
+make[1]: 进入目录“/home/ctw/opensource/webrtc/webrtc_agc2/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a4bdc.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -mavx2 -mfma  -o CMakeFiles/cmTC_a4bdc.dir/src.c.o -c /home/ctw/opensource/webrtc/webrtc_agc2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a4bdc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4bdc.dir/link.txt --verbose=1
+/usr/bin/cc -mavx2 -mfma  CMakeFiles/cmTC_a4bdc.dir/src.c.o -o cmTC_a4bdc 
+/usr/bin/ld: CMakeFiles/cmTC_a4bdc.dir/src.c.o: in function `main':
+src.c:(.text+0x3e): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x4a): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x56): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.c:(.text+0x67): undefined reference to `pthread_join'
+collect2: 错误：ld 返回 1
+make[1]: *** [CMakeFiles/cmTC_a4bdc.dir/build.make:99：cmTC_a4bdc] 错误 1
+make[1]: 离开目录“/home/ctw/opensource/webrtc/webrtc_agc2/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_a4bdc/fast] 错误 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ctw/opensource/webrtc/webrtc_agc2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b61d2/fast && /usr/bin/make  -f CMakeFiles/cmTC_b61d2.dir/build.make CMakeFiles/cmTC_b61d2.dir/build
+make[1]: 进入目录“/home/ctw/opensource/webrtc/webrtc_agc2/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b61d2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -mavx2 -mfma -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_b61d2.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b61d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b61d2.dir/link.txt --verbose=1
+/usr/bin/cc -mavx2 -mfma -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_b61d2.dir/CheckFunctionExists.c.o -o cmTC_b61d2  -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: 错误：ld 返回 1
+make[1]: *** [CMakeFiles/cmTC_b61d2.dir/build.make:99：cmTC_b61d2] 错误 1
+make[1]: 离开目录“/home/ctw/opensource/webrtc/webrtc_agc2/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:127：cmTC_b61d2/fast] 错误 2
+
+
+

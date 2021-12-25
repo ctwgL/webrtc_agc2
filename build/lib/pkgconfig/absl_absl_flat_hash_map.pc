@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: absl_absl_flat_hash_map
+Description: Abseil absl_flat_hash_map library
+URL: https://abseil.io/
+Version: head
+Requires.private: absl_container_memory = head absl_hash_function_defaults = head absl_raw_hash_map = head absl_algorithm_container = head absl_memory = head
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

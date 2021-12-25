@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: absl_absl_random_internal_distribution_test_util
+Description: Abseil absl_random_internal_distribution_test_util library
+URL: https://abseil.io/
+Version: head
+Requires.private: absl_config = head absl_core_headers = head absl_raw_logging_internal = head absl_strings = head absl_str_format = head absl_span = head
+Libs: -L${libdir}  -labsl_absl_random_internal_distribution_test_util
+Cflags: -I${includedir} -DNOMINMAX

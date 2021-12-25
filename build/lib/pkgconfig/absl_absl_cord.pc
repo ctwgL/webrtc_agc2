@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: absl_absl_cord
+Description: Abseil absl_cord library
+URL: https://abseil.io/
+Version: head
+Requires.private: absl_base = head absl_base_internal = head absl_compressed_tuple = head absl_config = head absl_core_headers = head absl_endian = head absl_fixed_array = head absl_function_ref = head absl_inlined_vector = head absl_optional = head absl_raw_logging_internal = head absl_strings = head absl_strings_internal = head absl_throw_delegate = head absl_type_traits = head
+Libs: -L${libdir}  -labsl_absl_cord
+Cflags: -I${includedir} -DNOMINMAX

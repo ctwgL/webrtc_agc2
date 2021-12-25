@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: absl_absl_base
+Description: Abseil absl_base library
+URL: https://abseil.io/
+Version: head
+Requires.private: absl_atomic_hook = head absl_base_internal = head absl_config = head absl_core_headers = head absl_dynamic_annotations = head absl_log_severity = head absl_raw_logging_internal = head absl_spinlock_wait = head absl_type_traits = head
+Libs: -L${libdir} -lrt -labsl_absl_base
+Cflags: -I${includedir} -DNOMINMAX

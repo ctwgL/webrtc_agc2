@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: absl_absl_flags_path_util
+Description: Abseil absl_flags_path_util library
+URL: https://abseil.io/
+Version: head
+Requires.private: absl_config = head absl_strings = head
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

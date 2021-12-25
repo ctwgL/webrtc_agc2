@@ -1,0 +1,2 @@
+/usr/bin/ar qc libabsl_wyhash.a CMakeFiles/absl_wyhash.dir/internal/wyhash.cc.o
+/usr/bin/ranlib libabsl_wyhash.a

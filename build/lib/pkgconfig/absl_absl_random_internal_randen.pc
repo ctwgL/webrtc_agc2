@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: absl_absl_random_internal_randen
+Description: Abseil absl_random_internal_randen library
+URL: https://abseil.io/
+Version: head
+Requires.private: absl_random_internal_platform = head absl_random_internal_randen_hwaes = head absl_random_internal_randen_slow = head
+Libs: -L${libdir}  -labsl_absl_random_internal_randen
+Cflags: -I${includedir} -DNOMINMAX

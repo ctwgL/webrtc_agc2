@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: absl_absl_debugging
+Description: Abseil absl_debugging library
+URL: https://abseil.io/
+Version: head
+Requires.private: absl_stacktrace = head absl_leak_check = head
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

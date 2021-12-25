@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: absl_absl_memory
+Description: Abseil absl_memory library
+URL: https://abseil.io/
+Version: head
+Requires.private: absl_core_headers = head absl_meta = head
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

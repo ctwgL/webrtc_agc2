@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: absl_absl_log_severity
+Description: Abseil absl_log_severity library
+URL: https://abseil.io/
+Version: head
+Requires.private: absl_core_headers = head
+Libs: -L${libdir}  -labsl_absl_log_severity
+Cflags: -I${includedir} -DNOMINMAX

@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: absl_absl_symbolize
+Description: Abseil absl_symbolize library
+URL: https://abseil.io/
+Version: head
+Requires.private: absl_debugging_internal = head absl_demangle_internal = head absl_base = head absl_config = head absl_core_headers = head absl_dynamic_annotations = head absl_malloc_internal = head absl_raw_logging_internal = head absl_strings = head
+Libs: -L${libdir}  -labsl_absl_symbolize
+Cflags: -I${includedir} -DNOMINMAX

@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: absl_absl_hash_function_defaults
+Description: Abseil absl_hash_function_defaults library
+URL: https://abseil.io/
+Version: head
+Requires.private: absl_config = head absl_cord = head absl_hash = head absl_strings = head
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

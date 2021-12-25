@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: absl_absl_failure_signal_handler
+Description: Abseil absl_failure_signal_handler library
+URL: https://abseil.io/
+Version: head
+Requires.private: absl_examine_stack = head absl_stacktrace = head absl_base = head absl_config = head absl_core_headers = head absl_errno_saver = head absl_raw_logging_internal = head
+Libs: -L${libdir}  -labsl_absl_failure_signal_handler
+Cflags: -I${includedir} -DNOMINMAX

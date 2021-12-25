@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: absl_absl_random_internal_wide_multiply
+Description: Abseil absl_random_internal_wide_multiply library
+URL: https://abseil.io/
+Version: head
+Requires.private: absl_bits = head absl_config = head absl_int128 = head
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

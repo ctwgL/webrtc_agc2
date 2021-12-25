@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: absl_absl_scoped_set_env
+Description: Abseil absl_scoped_set_env library
+URL: https://abseil.io/
+Version: head
+Requires.private: absl_config = head absl_raw_logging_internal = head
+Libs: -L${libdir}  -labsl_absl_scoped_set_env
+Cflags: -I${includedir} -DNOMINMAX

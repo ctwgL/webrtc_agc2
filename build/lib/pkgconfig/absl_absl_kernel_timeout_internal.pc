@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: absl_absl_kernel_timeout_internal
+Description: Abseil absl_kernel_timeout_internal library
+URL: https://abseil.io/
+Version: head
+Requires.private: absl_core_headers = head absl_raw_logging_internal = head absl_time = head
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

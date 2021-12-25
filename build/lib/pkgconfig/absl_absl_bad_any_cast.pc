@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: absl_absl_bad_any_cast
+Description: Abseil absl_bad_any_cast library
+URL: https://abseil.io/
+Version: head
+Requires.private: absl_bad_any_cast_impl = head absl_config = head
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX
